@@ -5,6 +5,7 @@ import "fmt"
 // scope
 // global scope
 // local scope
+// block scope
 // package
 
 
@@ -21,9 +22,14 @@ func main() {
 	var a = 20
 	var b = 30
 
+	x := 100
+
 	
-	fmt.Println(add(a, b))
-	fmt.Println(add(p, q))
-	// fmt.Println(add(p, sum))
+	if x >= 50 {
+		y := 500
+		fmt.Println("Ami block er maje asi")
+	}
+
+	fmt.Println("Ami block er bahire asi", y)
 }
 
