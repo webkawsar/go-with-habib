@@ -6,7 +6,7 @@ import "fmt"
 // global scope
 // local scope
 // block scope
-// package
+// package scope
 
 
 var p = 10
@@ -19,6 +19,9 @@ func add(num1 int, num2 int) int {
 }
 
 func main() {
+
+	// local scope
+	// if, function, switch
 	var a = 20
 	var b = 30
 
