@@ -33,7 +33,7 @@ func main() {
 // custom package pawar jonno
 // go mod init example.com
 // function er name small letter e dile function pabe na, capital letter diye function er name suru hote hobe
-// jei name diye mod init korob seta import korar somoy package er namer aage bosate hobe
+// jei name diye mod init korbo seta import korar somoy package er namer aage bosate hobe
 
 
 
